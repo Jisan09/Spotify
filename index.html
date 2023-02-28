@@ -3,13 +3,81 @@
   <head>
     <meta charset="UTF-8">
     <title>Music Robot</title>
+    <style>
+      body {
+        background-color: #333333;
+        color: rgba(255, 255, 255, 0.679);
+
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 100px;
+
+      }
+      .robot-text {
+        font-size: 24px;
+        margin-top: 20px;
+      }
+      .url-text {
+        font-size: 20px;
+        margin-left: 120px;
+      }
+      .logo-text {
+        font-size: 20px;
+        margin-left: 150px;
+      }
+      .paste-text {
+        font-size: 20px;
+        margin-left: 180px;
+      }
+    </style>
+
   </head>
   <body>
-    <div style="text-align:center;">
-      <h1 style="font-size: 72px;">Hello, world!</h1>
+    <div class="top_wrap">
+      <svg width="215px" height="107px" viewBox="0 0 315 107" version="1.1" style="overflow:visible">
+        <g  id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+          <path id="Path-1" class="path" fill="none" stroke=#3b0724 stroke-width="12" stroke-linejoin="round" stroke-miterlimit="10" d="M1.4,2.1c0,0,86,57,21,41.5s172.5-24.5,289,81"/>
+    
+    <path class="top_dashed" fill="none" stroke="white" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M1.4,2.1c0,0,86,57,21,41.5s172.5-24.5,289,81"/>   
+
+          <polyline id="arrow" points="0,-10 18,0 0,9 5,0" fill=#3b0724>
+            <animateMotion rotate="auto" begin="1s" dur="3s" repeatCount="indefinite" fill="freeze">
+              <mpath xlink:href="#Path-1" />
+            </animateMotion>
+          </polyline>
+    
+        </g>
+      </svg>
+    </div>
+    <div class="url-text">Copy the Page URL</div>
+    <div class="logo-text">Click on MusicBot logo</div>
+    <div class="paste-text">Paste the copied link in Bot</div>
+    <div class="buttom_wrap">
+      <svg width="215px" height="107px" viewBox="-60 50 300 10" version="1.1" style="overflow:visible">
+        <g  id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+          <path id="Path-2" class="path" fill="none" stroke="#3b0724" stroke-width="12" stroke-linejoin="round" stroke-miterlimit="10" d="M350,0.1c0,10,96,57,211.5,41.5s172.5-24.5,-90,230"/>
+    
+    <path class="buttom_dashed" fill="none" stroke="white" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M350,0.1c0,10,96,57,211.5,41.5s172.5-24.5,-85,230"/>   
+          
+          <polyline id="arrow" points="0,-9 18,0 0,9 5,0" fill="#3b0724">
+            <animateMotion rotate="auto" begin="0s" dur="3s" repeatCount="indefinite" fill="freeze">
+              <mpath xlink:href="#Path-2" />
+            </animateMotion>
+          </polyline>
+    
+        </g>
+      </svg>
+    </div>
+
+    <div class="container">
       <a href="https://t.me/catmusicrobot" target="_blank">
-        <img src="assets/logo.jpg" alt="Cat Music" style="border-radius:50%;width:200px;height:200px;">
+        <img src="https://graph.org/file/91dc5cc13c4237c85353c.jpg" alt="Cat Music" style="border-radius:30%;width:150px;height:150px;">
       </a>
+      <div class="robot-text">@CatMusicRobot</div>
     </div>
   </body>
 </html>
+
